@@ -32,7 +32,7 @@ body {
 }
 
 
-/* MAIN */
+/* HEADER */
 
 .header {
     width: 100%;
@@ -45,6 +45,8 @@ body {
 .logo img {
     width: 40%;
 }
+
+/* CONTENT */
 
 .main {
     flex-direction: column;
@@ -103,6 +105,8 @@ body {
     background-color: var(--secondary);
 }
 
+/* FOOTER */
+
 .footer {
     margin-top: 2rem;
 }
@@ -132,6 +136,8 @@ body {
 .social :hover {
     background-color: var(--secondary);
 }
+
+/* MEDIA QUERY  */
 
 @media (min-width: 1000px) {
     body {
